@@ -3,7 +3,7 @@ import './Button.css';
 
 const Button = (props) => ( 
 <button onClick={props.startGame}>
-    {props.playing == true? "Reset" : "Start Game"}
+    {props.playing ? "reset" : "start"}
 </button> )
 
 export default Button
